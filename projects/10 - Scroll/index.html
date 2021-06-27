@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/todolist.svg">
+    <title>Scroll</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link rel="stylesheet" href="styles.css" />
+
+  </head>
+  <body>
+
+    <header id="home">
+
+      <nav class="" id="nav">
+        <div class="nav-center">
+          <div class="nav-header">
+            <img class="logo" src="./logo.svg" alt="logo">
+            <button class="nav-toggle"><i class="fas fa-bars"></i></button>
+          </div>
+
+          <div class="links-container">
+            <ul class="links">
+              <li><a href="#home" class="scroll-link">home</a></li>
+              <li><a href="#about" class="scroll-link">about</a></li>
+              <li><a href="#services" class="scroll-link">services</a></li>
+              <li><a href="#tours" class="scroll-link">tours</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="banner">
+        <div class="container">
+          <h1>scroll project</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, numquam.</p>
+          <a href="#tour" class="scroll-link btn btn-white">explore tours</a>
+        </div>
+      </div>
+
+    </header>
+
+    <section class="section" id="about">
+      <div class="title">
+        <h2>about <span>us</span></h2>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="title">
+        <h2>our <span>services</span></h2>
+      </div>
+    </section>
+
+    <section class="section" id="tours">
+      <div class="title">
+        <h2>featured <span>tours</span></h2>
+      </div>
+    </section>
+
+    <footer class="section">
+      <p>copyright &copy; backroads trave tours company <span id="date"></span>. all rights reserved</p>
+    </footer>
+
+    <a href="#home" class="scroll-link top-link"><i class="fas fa-arrow-up"></i></a>
+   
+    <script src="app.js"></script>
+  </body>
+</html>

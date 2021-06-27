@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --text-color: #2B417B;
+    --bg-container: #FFFFFF;
+    --bg-main: #F2F0FF;
+}
+
+html {
+    box-sizing: initial;
+    font-size: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--bg-main);
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+
+}
+
+span {
+    font-size: 8rem;
+    color: black;
+}
+
+button {
+    padding: 0.375rem 0.75rem;
+    margin: 0.5rem;
+    font-size: 0.875rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    background: transparent;    
+    border: 2px solid var(--text-color);
+    border-radius: 0.25rem;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    color: var(--bg-container);
+    background: var(--text-color);
+}
+
+.container {
+    background-color: var(--bg-container);
+    border-radius: 1rem;
+    padding: 4rem;
+    margin: 1rem;
+}
+
+.content {
+    display: grid;
+    place-content: center;
+    row-gap: 4rem;
+}
+
+@media (max-width: 530px) {
+    .button__container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5rem;
+    }
+}

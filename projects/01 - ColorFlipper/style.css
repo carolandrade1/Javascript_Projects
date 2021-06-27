@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+:root {
+    --darkBlue: #2B417B;
+    --lightBlue: #5d81e6;
+    --white: #FFFFFF;
+    --bg: #F2F0FF;
+}
+
+html {
+    box-sizing: initial;
+    font-size: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a, a:visited, a:hover {
+    text-decoration: inherit;
+    color: var(--darkBlue);
+}
+
+h1 {
+    font-family: 'Bungee Shade', cursive;
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 800;
+    background-image: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--darkBlue);
+    border-radius: 1rem;
+    padding: 0.5rem 1rem; 
+}
+
+span {
+    font-weight: 600;
+    color: var(--lightBlue);
+}
+
+nav {
+    background-color: var(--white);
+}
+
+.navbar {
+    max-width: 35rem;
+    margin: 0 auto;
+    padding: .5rem 1rem;
+    text-align: center;
+}
+
+.navbar__links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    width: 10rem;
+    font-size: 1.1rem;
+}
+
+.navbar__links a:hover {
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 70vh;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.color, .btn {
+    text-transform: uppercase;
+}
+
+.btn {
+    font-size: 0.875rem;
+    letter-spacing: 0.1rem;
+    padding: 0.75rem 1.875rem;
+    color: var(--darkBlue);
+    background-color: transparent;
+    border-radius: 3.125rem;
+    border: 0.125rem solid var(--darkBlue);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    .navbar__links {
+        width: 5.5rem;
+        font-size: 1.1rem;
+    }
+}
