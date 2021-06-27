@@ -1,6 +1,8 @@
 # Projetos JavaScript
 
-O site demonstra projetos em JavaScript
+Todo o site foi criado e desenhado por mim. Os projetos JavaScrip foram criados por [John Smilga](https://github.com/john-smilga) e demonstrados em seu canal do Youtube [Coding Addict](https://www.youtube.com/watch?v=c5SIG7Ie0dM).
+
+Fazer esses projetos foi uma ótima forma de fixa alguns conteúdos e aprender outras funções do JavaScript.
 
 ## Conteúdo
 
@@ -12,7 +14,8 @@ O site demonstra projetos em JavaScript
 
 ### Imagem
 
-
+![Mobile](/assets/img/mobile.PNG)
+![Desktop](/assets/img/desktop.PNG)
 
 ### Links
 

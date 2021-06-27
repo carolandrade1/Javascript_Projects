@@ -1,86 +1,86 @@
 const grid = [
     {
         id: 1,
-        img: "./assets/img/imgProjects/01 - ColorFlipper.png",
+        img: "./assets/img/imgProjects/01 - ColorFlipper.PNG",
         title: "Color Flipper",
-        github: "",
+        github: "https://github.com/carolandrade1/javascript-projects/tree/main/projects/01%20-%20ColorFlipper",
         live: "./projects/01 - ColorFlipper/index.html"
     },
     {
         id: 2,
-        img: "./assets/img/imgProjects/02 - Counter.png",
+        img: "./assets/img/imgProjects/02 - Counter.PNG",
         title: "Counter",
-        github: "",
+        github: "https://github.com/carolandrade1/javascript-projects/tree/main/projects/02%20-%20Counter",
         live: "./projects/02 - Counter/index.html"
     },
     {
         id: 3,
-        img: "./assets/img/imgProjects/03 - Reviews.png",
+        img: "./assets/img/imgProjects/03 - Reviews.PNG",
         title: "Reviews",
-        github: "",
+        github: "https://github.com/carolandrade1/javascript-projects/tree/main/projects/03%20-%20Reviews",
         live: "./projects/03 - Reviews/index.html"
     },
     {
         id: 4,
-        img: "./assets/img/imgProjects/04 - Navbar.png",
+        img: "./assets/img/imgProjects/04 - Navbar.PNG",
         title: "Navbar",
-        github: "",
+        github: "https://github.com/carolandrade1/javascript-projects/tree/main/projects/04%20-%20Navbar",
         live: "./projects/04 - Navbar/index.html"
     },
     {
         id: 5,
-        img: "./assets/img/imgProjects/05 - Sidebar.png",
+        img: "./assets/img/imgProjects/05 - Sidebar.PNG",
         title: "Sidebar",
-        github: "",
+        github: "https://github.com/carolandrade1/javascript-projects/tree/main/projects/05%20-%20Sidebar",
         live: "./projects/05 - Sidebar/index.html"
     },
     {
         id: 6,
-        img: "./assets/img/imgProjects/06 - Modal.png",
+        img: "./assets/img/imgProjects/06 - Modal.PNG",
         title: "Modal",
-        github: "",
+        github: "https://github.com/carolandrade1/javascript-projects/tree/main/projects/06%20-%20Modal",
         live: "./projects/06 - Modal/index.html"
     },
     {
         id: 7,
-        img: "./assets/img/imgProjects/07 - Questions.png",
+        img: "./assets/img/imgProjects/07 - Questions.PNG",
         title: "Questions",
-        github: "",
+        github: "https://github.com/carolandrade1/javascript-projects/tree/main/projects/07%20-%20Questions",
         live: "./projects/07 - Questions/index.html"
     },
     {
         id: 8,
-        img: "./assets/img/imgProjects/08 - Menu.png",
+        img: "./assets/img/imgProjects/08 - Menu.PNG",
         title: "Menu",
-        github: "",
+        github: "https://github.com/carolandrade1/javascript-projects/tree/main/projects/08%20-%20Menu",
         live: "./projects/08 - Menu/index.html"
     },
     {
         id: 9,
-        img: "./assets/img/imgProjects/09 - Video.png",
+        img: "./assets/img/imgProjects/09 - Video.PNG",
         title: "Video",
-        github: "",
+        github: "https://github.com/carolandrade1/javascript-projects/tree/main/projects/09%20-%20Video",
         live: "./projects/09 - Video/index.html"
     },
     {
         id: 10,
-        img: "./assets/img/imgProjects/10 - Scroll.png",
+        img: "./assets/img/imgProjects/10 - Scroll.PNG",
         title: "Scroll",
-        github: "",
+        github: "https://github.com/carolandrade1/javascript-projects/tree/main/projects/10%20-%20Scroll",
         live: "./projects/10 - Scroll/index.html"
     },
     {
         id: 11,
-        img: "./assets/img/imgProjects/11 - Tabs.png",
+        img: "./assets/img/imgProjects/11 - Tabs.PNG",
         title: "Tabs",
-        github: "",
+        github: "https://github.com/carolandrade1/javascript-projects/tree/main/projects/11%20-%20Tabs",
         live: "./projects/11 - Tabs/index.html"
     },
     {
         id: 12,
-        img: "./assets/img/imgProjects/12 - Slider.png",
+        img: "./assets/img/imgProjects/12 - Slider.PNG",
         title: "Slider",
-        github: "",
+        github: "https://github.com/carolandrade1/javascript-projects/tree/main/projects/12%20-%20Slider",
         live: "./projects/12 - Slider/index.html"
     }
 ];
