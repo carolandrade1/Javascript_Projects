@@ -14,7 +14,6 @@ Fazer esses projetos foi uma ótima forma de fixa alguns conteúdos e aprender o
 
 ### Imagem
 
-![Mobile](/assets/img/mobile.PNG)
 ![Desktop](/assets/img/desktop.PNG)
 
 ### Links
